@@ -185,7 +185,7 @@ python3 -m pipx install impacket
 sudo apt install -y crowbar
 
 # Install neo4j
-sudo apt install neo4j
+sudo apt install neo4j -y
 
 # Install Bloodhound
 pipx install bloodhound
@@ -203,7 +203,7 @@ pipx install impacket
 sudo apt install libreoffice
 
 # Install Tree
-sudo apt install tree
+sudo apt install tree -y
 
 # Install CUPP
 sudo apt install cupp -y
@@ -215,7 +215,7 @@ sudo apt install exiftool -y
 cd ~/Documents/Ressources/2.Exploits/3.Web && git clone https://github.com/s0md3v/XSStrike.git && cd ~/Documents/Ressources/2.Exploits/3.Web/XSStrike && pip install -r requirements.txt
 
 # Install SQLMap
-sudo apt install sqlmap
+sudo apt install sqlmap -y
 
 # Install Redis
 sudo apt install redis-tools -y
@@ -236,16 +236,16 @@ pipx install uploadserver
 pipx install pyftpdlib
 
 # Install NFS-Common & RPCBind
-sudo apt install rpcbind nfs-common
+sudo apt install rpcbind nfs-common -y
 
 # Install FileZilla
 sudo apt install filezilla -y
 
 # Install Evil-WinRM
-sudo apt install evil-winrm
+sudo apt install evil-winrm -y
 
 # Install Responder
-sudo apt install responder
+sudo apt install responder -y
 
 # Install KubeletCTL
 cd ~/Documents/Ressources/3.Privesc/2.Windows/KubeletCTL && chmod a+x ./kubeletctl_linux_amd64 && mv ./kubeletctl_linux_amd64 /usr/local/bin/kubeletctl
