@@ -160,6 +160,9 @@ cd ~/Documents/Ressources/4.SystemTools/2.Windows && mkdir rpivot && cd rpivot &
 # Download Laudanum
 cd ~/Documents/Ressources/2.Exploits/3.Web && git clone https://github.com/jbarcia/Web-Shells.git Laudanum
 
+# Download Orangedefense AD-Template
+cd ~/Documents/1.Recon/4.Active\ Directory/ && wget https://orange-cyberdefense.github.io/ocd-mindmaps/img/pentest_ad_dark_2022_11.svg
+
 
 ###### INSTALLATIONS ######
 
@@ -249,6 +252,7 @@ sudo apt install responder -y
 
 # Install KubeletCTL
 cd ~/Documents/Ressources/3.Privesc/2.Windows/KubeletCTL && chmod a+x ./kubeletctl_linux_amd64 && mv ./kubeletctl_linux_amd64 /usr/local/bin/kubeletctl
+
 
 
 
