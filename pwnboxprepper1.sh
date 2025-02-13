@@ -258,6 +258,13 @@ cd ~/Documents/Ressources && tree -d -L 3
 
 
 
+##### Update Repos #####
+
+sudo apt update && sudo apt full-upgrade
+
+
+
+
 ###### Addtional Notes ######
 
 RED='\033[0;31m'
@@ -265,5 +272,5 @@ NC='\033[0m' # No Color
 
 echo -e "\n${RED}Remember to add the Cookie Editor Addon!!${NC}"
 echo -e "URL: https://addons.mozilla.org/addon/cookie-editor?utm_campaign=external-github-readme\n"
-echo -e "\n${RED}Remember to also add:${NC}\n-OnionShare\n-VSCodium\n-Visual Studio\n-FoxyProxy\n-Wappalyzer"
+echo -e "\n${RED}Remember to also add:${NC}\n-OnionShare\n-Wappalyzer"
 
