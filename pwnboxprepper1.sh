@@ -253,6 +253,10 @@ sudo apt install responder -y
 # Install KubeletCTL
 cd ~/Documents/Ressources/3.Privesc/2.Windows/KubeletCTL && chmod a+x ./kubeletctl_linux_amd64 && mv ./kubeletctl_linux_amd64 /usr/local/bin/kubeletctl
 
+# Install Obsidian
+cd ~/Desktop && wget https://github.com/obsidianmd/obsidian-releases/releases/download/v1.8.4/obsidian_1.8.4_amd64.deb && ./obsidian_1.8.4_amd64.deb
+
+
 
 
 
