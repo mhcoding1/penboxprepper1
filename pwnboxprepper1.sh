@@ -163,6 +163,11 @@ cd ~/Documents/Ressources/2.Exploits/3.Web && git clone https://github.com/jbarc
 # Download Orangedefense AD-Template
 cd ~/Documents/1.Recon/4.Active\ Directory/ && wget https://orange-cyberdefense.github.io/ocd-mindmaps/img/pentest_ad_dark_2022_11.svg
 
+# Download Nmap Grep Cheatsheet
+cd ~/Documents/Ressources/1.Recon/ && git clone https://github.com/leonjza/awesome-nmap-grep.git
+
+
+
 
 ###### INSTALLATIONS ######
 
@@ -255,6 +260,15 @@ cd ~/Documents/Ressources/3.Privesc/2.Windows/KubeletCTL && chmod a+x ./kubeletc
 
 # Install Obsidian
 cd ~/Desktop && wget https://github.com/obsidianmd/obsidian-releases/releases/download/v1.8.4/obsidian_1.8.4_amd64.deb && ./obsidian_1.8.4_amd64.deb
+
+# Install Seclists
+sudo apt install seclists -y
+
+# Install FTP
+sudo apt install ftp -y
+
+
+
 
 
 
