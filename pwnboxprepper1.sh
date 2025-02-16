@@ -6,6 +6,12 @@
 
 mkdir -p ~/Documents/Ressources/{'1.Recon'/{'1.Linux','2.Windows','3.Web','4.Active Directory'},'2.Exploits'/{'1.Linux','2.Windows','3.Web','4.Active Directory'},'3.Privesc'/{'1.Linux','2.Windows','3.Web'},'4.SystemTools'/{'1.Linux','2.Windows','3.Web'}}
 
+# Install pipx
+sudo apt install pipx -y
+
+# Install go
+sudo snap install go --classic
+
 
 ###### REPOS ######
 
@@ -266,6 +272,9 @@ sudo apt install seclists -y
 
 # Install FTP
 sudo apt install ftp -y
+
+# Install pipx
+sudo apt install pipx -y
 
 
 
