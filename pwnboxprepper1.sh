@@ -172,6 +172,10 @@ cd ~/Documents/1.Recon/4.Active\ Directory/ && wget https://orange-cyberdefense.
 # Download Nmap Grep Cheatsheet
 cd ~/Documents/Ressources/1.Recon/ && git clone https://github.com/leonjza/awesome-nmap-grep.git
 
+# Download Blackeye
+cd ~/Documents/Ressources/2.Exploits && git clone https://github.com/shuvo-halder/blackeye.git
+
+
 
 
 
