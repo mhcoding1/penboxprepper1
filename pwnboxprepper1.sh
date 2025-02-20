@@ -280,7 +280,8 @@ sudo apt install ftp -y
 # Install pipx
 sudo apt install pipx -y
 
-
+# Install Hash-Identifier
+sudo apt install hash-identifier
 
 
 
