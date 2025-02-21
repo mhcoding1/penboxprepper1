@@ -175,6 +175,8 @@ cd ~/Documents/Ressources/1.Recon/ && git clone https://github.com/leonjza/aweso
 # Download Blackeye
 cd ~/Documents/Ressources/2.Exploits && git clone https://github.com/shuvo-halder/blackeye.git
 
+# Download LFI-RCE-Sheet-Cheat
+cd ~/Documents/Ressources/2.Exploits/3.Web && git clone https://github.com/RoqueNight/LFI---RCE-Cheat-Sheet.git
 
 
 
