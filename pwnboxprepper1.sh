@@ -285,6 +285,10 @@ sudo apt install pipx -y
 # Install Hash-Identifier
 sudo apt install hash-identifier
 
+# Install Proxychains-NG (Next Gen)
+sudo apt install proxychains-ng
+
+
 
 
 
