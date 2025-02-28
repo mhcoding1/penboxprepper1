@@ -288,6 +288,9 @@ sudo apt install hash-identifier
 # Install Proxychains-NG (Next Gen)
 sudo apt install proxychains-ng
 
+# Install Social-Engineer-Toolkit
+sudo apt install set -y
+
 
 
 
