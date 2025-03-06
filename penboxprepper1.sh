@@ -88,14 +88,14 @@ cd ~/Documents/Ressources/2.Exploits/2.Windows && git clone https://github.com/G
 # Download SysInternals
 mkdir ~/Documents/Ressources/4.SystemTools/2.Windows/Sysinternals && cd ~/Documents/Ressources/4.SystemTools/2.Windows/Sysinternals && wget https://download.sysinternals.com/files/SysinternalsSuite.zip && unzip SysinternalsSuite.zip && rm SysinternalsSuite.zip
 
-# Download PrintSpoofer
-cd ~/Documents/Ressources/3.Privesc/2.Windows && git clone https://github.com/itm4n/PrintSpoofer.git
-
 # Download nc.exe
 mkdir ~/Documents/Ressources/4.SystemTools/2.Windows/Netcat && cd ~/Documents/Ressources/4.SystemTools/2.Windows/Netcat && git clone https://github.com/int0x33/nc.exe
 
 # Download JuicyPotato
 cd ~/Documents/Ressources/3.Privesc/2.Windows && mkdir JuicyPotato && cd JuicyPotato && wget https://github.com/ohpe/juicy-potato/releases/download/v0.1/JuicyPotato.exe
+
+# Download PrintSpoofer
+cd ~/Documents/Ressources/3.Privesc/2.Windows && git clone https://github.com/itm4n/PrintSpoofer.git && cd PrintSpoofer && wget https://github.com/itm4n/PrintSpoofer/releases/download/v1.0/PrintSpoofer32.exe
 
 # Download PowerUp
 cd ~/Documents/Ressources/3.Privesc/2.Windows && mkdir PowerUp && cd PowerUp && curl https://raw.githubusercontent.com/PowerShellMafia/PowerSploit/master/Privesc/PowerUp.ps1 > PowerUp.ps1
@@ -209,6 +209,9 @@ sudo apt install neo4j -y
 
 # Install Bloodhound
 pipx install bloodhound
+
+# Install Bloodhound GUI
+sudo apt install bloodhound
 
 # Install DroopeScan
 pipx install droopescan
