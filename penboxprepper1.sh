@@ -187,7 +187,10 @@ cd ~/Documents/Ressources/2.Exploits/3.Web && git clone https://github.com/Roque
 curl https://i.jpillora.com/chisel! | bash
 
 # Install CrackMapExec
-pipx ensurepath && pipx install crackmapexec
+pipx install git+https://github.com/byt3bl33d3r/CrackMapExec
+
+# Install NetExec
+sudo apt install netexec
 
 # Install DNSCat2
 cd ~/Documents/Ressources/4.SystemTools/2.Windows && git clone https://github.com/iagox86/dnscat2.git && cd dnscat2/client/ && make
