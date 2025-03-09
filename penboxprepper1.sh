@@ -178,6 +178,13 @@ cd ~/Documents/Ressources/2.Exploits && git clone https://github.com/shuvo-halde
 # Download LFI-RCE-Sheet-Cheat
 cd ~/Documents/Ressources/2.Exploits/3.Web && git clone https://github.com/RoqueNight/LFI---RCE-Cheat-Sheet.git
 
+# Download Snaffler
+cd ~/Documents/Ressources/1.Recon/2.Windows && git clone https://github.com/SnaffCon/Snaffler.git && wget https://github.com/SnaffCon/Snaffler/releases/download/1.0.184/Snaffler.exe
+
+
+
+
+
 
 
 
