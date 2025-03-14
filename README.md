@@ -18,19 +18,19 @@ This script automates the installation and configuration of various tools and ut
 
 1. Clone this repo:
 ~~~bash
-git clone https://github.com/mhcoding1/pwnboxprepper1
+git clone https://github.com/mhcoding1/penboxprepper1
 ~~~
 2. Navigate to the script:
 ~~~bash
-cd pwnboxprepper1
+cd penboxprepper1
 ~~~
 3. Change its perissions:
 ~~~bash
-chmod +x pwnboxprepper1.sh
+chmod +x penboxprepper1.sh
 ~~~
 4. Run the script:
 ~~~bash
-./pwnboxprepper1.sh
+./penboxprepper1.sh
 ~~~
 
 ## Note
