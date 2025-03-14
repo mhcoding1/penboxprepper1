@@ -64,6 +64,9 @@ cd ~/Documents/Ressources/2.Exploits/2.Windows && git clone https://github.com/f
 # Download Rubeus
 cd ~/Documents/Ressources/2.Exploits/2.Windows && git clone https://github.com/GhostPack/Rubeus.git
 
+# Download Rubeus Binaries
+cd ~/Documents/Ressources/2.Exploits/2.Windows && cd Rubeus && mkdir CompiledBinaries && cd CompiledBinaries && git clone https://github.com/r3motecontrol/Ghostpack-CompiledBinaries.git
+
 # Download Crowbar
 cd ~/Documents/Ressources/2.Exploits/2.Windows && git clone https://github.com/galkan/crowbar.git
 
@@ -181,7 +184,8 @@ cd ~/Documents/Ressources/2.Exploits/3.Web && git clone https://github.com/Roque
 # Download Snaffler
 cd ~/Documents/Ressources/1.Recon/2.Windows && git clone https://github.com/SnaffCon/Snaffler.git && wget https://github.com/SnaffCon/Snaffler/releases/download/1.0.184/Snaffler.exe
 
-
+# Download Windows Priv Enabler Script
+cd ~/Documents/Ressources/3.Privesc/2.Windows && mkdir EnableAllTokenPrivs && cd EnableAllTokenPrivs && wget https://raw.githubusercontent.com/fashionproof/EnableAllTokenPrivs/master/EnableAllTokenPrivs.ps1
 
 
 
