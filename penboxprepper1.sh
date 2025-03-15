@@ -187,6 +187,12 @@ cd ~/Documents/Ressources/1.Recon/2.Windows && git clone https://github.com/Snaf
 # Download Windows Priv Enabler Script
 cd ~/Documents/Ressources/3.Privesc/2.Windows && mkdir EnableAllTokenPrivs && cd EnableAllTokenPrivs && wget https://raw.githubusercontent.com/fashionproof/EnableAllTokenPrivs/master/EnableAllTokenPrivs.ps1
 
+# Download Windapsearch
+cd ~/Documents/Ressources/1.Recon/4.Active\ Directory/ && git clone https://github.com/ropnop/windapsearch.git && sudo sudo apt-get install python3-ldap && sudo ln -s /home/parrot/Documents/Ressources/1.Recon/4.Active\ Directory/windapsearch/windapsearch.py /usr/bin/windapsearch.py
+
+
+
+
 
 
 
