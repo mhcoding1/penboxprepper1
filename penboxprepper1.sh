@@ -4,7 +4,7 @@
 
 ###### Creating the ressources folder ######
 
-mkdir -p ~/Documents/Ressources/{'1.Recon'/{'1.Linux','2.Windows','3.Web','4.Active Directory'},'2.Exploits'/{'1.Linux','2.Windows','3.Web','4.Active Directory'},'3.Privesc'/{'1.Linux','2.Windows','3.Web'},'4.SystemTools'/{'1.Linux','2.Windows','3.Web'}}
+mkdir -p ~/Documents/Ressources/{'1.Recon'/{'1.Linux','2.Windows','3.Web','4.Active Directory'},'2.Exploits'/{'1.Linux','2.Windows','3.Web','4.Active Directory'},'3.Privesc'/{'1.Linux','2.Windows','3.Web'},'4.SystemTools'/{'1.Linux','2.Windows','3.Web','4.Pivoting'}}
 
 # Install pipx
 sudo apt install pipx -y
@@ -189,6 +189,12 @@ cd ~/Documents/Ressources/3.Privesc/2.Windows && mkdir EnableAllTokenPrivs && cd
 
 # Download Windapsearch
 cd ~/Documents/Ressources/1.Recon/4.Active\ Directory/ && git clone https://github.com/ropnop/windapsearch.git && sudo sudo apt-get install python3-ldap && sudo ln -s /home/parrot/Documents/Ressources/1.Recon/4.Active\ Directory/windapsearch/windapsearch.py /usr/bin/windapsearch.py
+
+# Download Chisel Server & Client
+cd ~/Documents/Ressources/4.SystemTools/4.Pivoting && mkdir SocksOverRDP && cd SocksOverRDP && wget https://github.com/nccgroup/SocksOverRDP/releases/download/v1.0/SocksOverRDP-x64.zip && wget https://github.com/nccgroup/SocksOverRDP/releases/download/v1.0/SocksOverRDP-x86.zip
+
+# Download Proxifier
+cd ~/Documents/Ressources/4.SystemTools/4.Pivoting && mkdir Proxifier && cd Proxifier && wget https://www.proxifier.com/download/ProxifierPE.zip
 
 
 
