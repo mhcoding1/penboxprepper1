@@ -164,7 +164,7 @@ cd ~/Documents/Ressources/3.Privesc/2.Windows && git clone https://github.com/hf
 cd ~/Documents/Ressources/1.Recon/2.Windows && git clone https://github.com/irsdl/IIS-ShortName-Scanner.git
 
 # Download RPivot
-cd ~/Documents/Ressources/4.SystemTools/2.Windows && mkdir rpivot && cd rpivot && git clone https://github.com/klsecservices/rpivot.git && wget https://github.com/klsecservices/rpivot/releases/download/v1.0/client.exe
+cd ~/Documents/Ressources/4.SystemTools/4.Pivoting/ && mkdir rpivot && cd rpivot && git clone https://github.com/klsecservices/rpivot.git && wget https://github.com/klsecservices/rpivot/releases/download/v1.0/client.exe
 
 # Download Laudanum
 cd ~/Documents/Ressources/2.Exploits/3.Web && git clone https://github.com/jbarcia/Web-Shells.git Laudanum
@@ -319,6 +319,17 @@ sudo apt install proxychains-ng
 
 # Install Social-Engineer-Toolkit
 sudo apt install set -y
+
+# Install Python 2.7
+cd /usr/src
+sudo wget https://www.python.org/ftp/python/2.7.18/Python-2.7.18.tgz
+sudo tar xzf Python-2.7.18.tgz
+cd Python-2.7.18
+sudo ./configure --enable-optimizations
+sudo make altinstall
+
+
+
 
 
 
