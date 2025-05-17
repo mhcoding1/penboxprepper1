@@ -142,9 +142,6 @@ cd ~/Documents/Ressources/1.Recon/1.Linux && git clone https://github.com/cddmp/
 # Download Keepass2John
 cd ~/Documents/Ressources/4.SystemTools && mkdir keepass2john && cd keepass2john && wget https://gist.githubusercontent.com/HarmJ0y/116fa1b559372804877e604d7d367bbc/raw/c0c6f45ad89310e61ec0363a69913e966fe17633/keepass2john.py
 
-# Download Seclists
-# cd ~/Documents/Ressources/4.SystemTools && mkdir SecLists && cd SecLists && git clone https://github.com/danielmiessler/SecLists.git 
-
 # Download KeyTabExtract
 cd ~/Documents/Ressources/2.Exploits/4.Active\ Directory/ && git clone https://github.com/sosdave/KeyTabExtract.git
 
@@ -331,8 +328,29 @@ sudo make altinstall
 # Install CTFR
 cd ~/Documents/Ressources/1.Recon/ && git clone https://github.com/UnaPibaGeek/ctfr.git && cd ctfr && pip3 install -r requirements.txt
 
+
+
+
+
+
+
+
+
+###### Ubuntu Specific Installs and Downloads ######
+# Careful! These Installs and Downloads are not yet tested...
+
 # Install VirtualBox
 sudo apt-get install virtualbox-7.1 -y
+
+# Install Burp Suite
+cd /opt && wget https://portswigger.net/burp/releases/download?product=community&version=2022.5.2&type=Linux && unzip 2022.5.2.zip && rm -rf 2022.5.2.zip
+
+
+# Download Caido
+cd ~/Documents/Ressources/4.SystemTools && mkdir Caido && cd Caido && wget https://caido.download/releases/v0.48.1/caido-desktop-v0.48.1-linux-x86_64.deb      
+
+# Download Seclists
+cd ~/Documents/Ressources/4.SystemTools && mkdir SecLists && cd SecLists && git clone https://github.com/danielmiessler/SecLists.git 
 
 
 
@@ -345,14 +363,9 @@ sudo apt-get install virtualbox-7.1 -y
 
 cd ~/Documents/Ressources && tree -d -L 3
 
-
-
 ##### Update Repos #####
 
 sudo apt update && sudo apt full-upgrade
-
-
-
 
 ###### Addtional Notes ######
 
