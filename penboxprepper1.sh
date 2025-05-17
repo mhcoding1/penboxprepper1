@@ -331,6 +331,9 @@ sudo make altinstall
 # Install CTFR
 cd ~/Documents/Ressources/1.Recon/ && git clone https://github.com/UnaPibaGeek/ctfr.git && cd ctfr && pip3 install -r requirements.txt
 
+# Install VirtualBox
+sudo apt-get install virtualbox-7.1 -y
+
 
 
 
