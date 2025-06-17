@@ -334,9 +334,9 @@ cd ~/Documents/Ressources/1.Recon/ && git clone https://github.com/UnaPibaGeek/c
 
 
 
+    
 
-
-###### Ubuntu Specific Installs and Downloads ######
+###### Mint Specific Installs and Downloads ######
 # Careful! These Installs and Downloads are not yet tested...
 
 # Install VirtualBox
@@ -344,6 +344,12 @@ sudo apt-get install virtualbox-7.1 -y
 
 # Install Burp Suite
 cd /opt && wget https://portswigger.net/burp/releases/download?product=community&version=2022.5.2&type=Linux && unzip 2022.5.2.zip && rm -rf 2022.5.2.zip
+
+# Install Nmap
+sudo apt install nmap -y
+
+# Install Gobuster
+sudo apt install gobuster
 
 
 # Download Caido
