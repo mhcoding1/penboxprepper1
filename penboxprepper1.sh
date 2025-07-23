@@ -199,8 +199,6 @@ cd ~/Documents/Ressources/4.SystemTools/4.Pivoting && mkdir Proxifier && cd Prox
 
 
 
-
-
 ###### INSTALLATIONS ######
 
 # Install Chisel
