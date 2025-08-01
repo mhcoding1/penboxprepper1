@@ -329,6 +329,9 @@ cd ~/Documents/Ressources/1.Recon/ && git clone https://github.com/UnaPibaGeek/c
 # Install hexedit
 sudo apt install hexedit
 
+# Install sherlock
+pipx install sherlock-project
+
 
 
 
