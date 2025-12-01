@@ -4,7 +4,7 @@
 
 ###### Creating the ressources folder ######
 
-mkdir -p ~/Documents/Ressources/{'1.Recon'/{'1.Linux','2.Windows','3.Web','4.Active Directory'},'2.Exploits'/{'1.Linux','2.Windows','3.Web','4.Active Directory'},'3.Privesc'/{'1.Linux','2.Windows','3.Web'},'4.SystemTools'/{'1.Linux','2.Windows','3.Web','4.Pivoting'}}
+mkdir -p ~/Documents/Ressources/{'1.Recon'/{'1.Linux','2.Windows','3.Web','4.Active Directory'},'2.Exploits'/{'1.Linux','2.Windows','3.Web','4.Active Directory'},'3.Privesc'/{'1.Linux','2.Windows','3.Web'},'4.SystemTools'/{'1.Linux','2.Windows','3.Web','4.Pivoting','5.Phishing'}}
 
 # Install pipx
 sudo apt install pipx -y
@@ -193,6 +193,8 @@ cd ~/Documents/Ressources/4.SystemTools/4.Pivoting && mkdir SocksOverRDP && cd S
 # Download Proxifier
 cd ~/Documents/Ressources/4.SystemTools/4.Pivoting && mkdir Proxifier && cd Proxifier && wget https://www.proxifier.com/download/ProxifierPE.zip
 
+# Download CredMaster
+cd ~/Documents/Ressources/5.Phishing/ && git clone https://github.com/knavesec/CredMaster.git && cd CredMaster && python3 -m venv venv && source venv/bin/activate && pip3 install -r requirements.txt
 
 
 
